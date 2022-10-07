@@ -1,11 +1,24 @@
+import { useEffect, useState } from "react"
 import BlogEntry from "./BlogEntry"
 
 const BlogEntryList = () => {
+    const [blogposts, setBlogposts] = useState([])
+
+    useEffect(() => {
+        fetch('http://localhost:9898/blogposts')
+            .then(res => res.json())
+            .then(data => setBlogposts(data))
+    }, [])
+
     return (
         <section>
-            <BlogEntry />
-            <BlogEntry />
-            <BlogEntry />
+            {blogposts.map((post, key) =>
+                <BlogEntry
+                    key={key}
+                    post={post}
+                />
+
+            )}
         </section>
     )
 }

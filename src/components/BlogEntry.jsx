@@ -1,8 +1,11 @@
-const BlogEntry = () => {
+const BlogEntry = ({ post }) => {
+
+    // state & fetch aus Blogentrylist?
+
     return (
         <div>
-            <img src="#" alt="#" />
-            <p>Beitragstitel</p>
+            <img src={`http://localhost:9898/${post.blogimage}`} alt={post.blogtitle} />
+            <p>{post.blogtitle}</p>
         </div>
     )
 }

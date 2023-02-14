@@ -15,9 +15,9 @@ Besonderheiten:
 – Node.js (asynchrone, event-basierte JavaScript-Laufzeitumgebung)  
 – express (Backend Framework für Node.js)  
 – Verwendung von verschiedenen middlewares:  
-+ multer (node.js middleware) für das Hochladen von Dateien  
-+ cors (node.js package) cors (node.js-Paket) für den Zugriff auf und die Validierung von Requests von remote hosts / verschiedenen Quellen  
-+ morgan (http request logger)  
+_ multer (node.js middleware) für das Hochladen von Dateien  
+_ cors (node.js package) cors (node.js-Paket) für den Zugriff auf und die Validierung von Requests von remote hosts / verschiedenen Quellen  
+_ morgan (http request logger)  
 – Routing methods (hier: GET und POST)  
 – fs-module-Funktionen wie readFile(), writeFile() etc.  
 – promises  
@@ -43,9 +43,9 @@ Specifics:
 – Node.js (asynchronous, event-based JavaScript runtime environment)  
 – express (Backend Framework for Node.js)  
 – Use of various middlewares:  
-+ multer (node.js middleware) to handle uploading files  
-+ cors (node.js package) to access and validate requests from remote hosts / different origins  
-+ morgan (http request logger)  
+_ multer (node.js middleware) to handle uploading files  
+_ cors (node.js package) to access and validate requests from remote hosts / different origins  
+_ morgan (http request logger)  
 – Routing methods (hier: GET und POST)  
 – fs module functions such as readFile(), writeFile() etc.  
 – promises*

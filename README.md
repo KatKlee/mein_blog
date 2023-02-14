@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+## Mein Blog
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Eine Blog-Website bestehend aus Frontend und Backend, die eine Übersicht aller Blogbeiträge zeigt und durch Anklicken eines Beitrags eine Detailansicht ermöglicht. Des weiteren ist über eine separate Seite für den Admin das Erstellen und Veröffentlichen von neuen Beiträgen möglich. Aktuell nicht gesichert (keine Guarded Route), da ohne Authentifizierung.
 
-## Available Scripts
+FRONTEND  
+Besonderheiten:  
+– react app  
+– Routing per BrowserRouter, Routes, Route (react router dom)  
+– Erstellen von z.B. Arrays anhand eines States mit useState() (react)  
+– useEffect() (react hook) mit fetch() und promises  
+– sinnvolle Aufteilung in pages und components (wie z.B. im atomic design)
 
-In the project directory, you can run:
+BACKEND  
+Besonderheiten:  
+– Node.js (asynchrone, event-basierte JavaScript-Laufzeitumgebung)  
+– express (Backend Framework für Node.js)  
+– Verwendung von verschiedenen middlewares:  
++ multer (node.js middleware) für das Hochladen von Dateien  
++ cors (node.js package) cors (node.js-Paket) für den Zugriff auf und die Validierung von Requests von remote hosts / verschiedenen Quellen  
++ morgan (http request logger)  
+– Routing methods (hier: GET und POST)  
+– fs-module-Funktionen wie readFile(), writeFile() etc.  
+– promises  
 
-### `npm start`
+Das Design ist in diesem Projekt erst einmal unwichtig, da die Entwicklung / Umsetzung der Funktionalitäten im Vordergrund stand.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Das Projekt ist noch nicht fertig gestellt und weiterhin in Bearbeitung.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+/
 
-### `npm test`
+*A blog website consisting of frontend and backend, that displays an overview of all blog posts and allows a detail view by clicking on a post. Furthermore, the creation and publication of new contributions is possible via a separate page for the admin. Currently not protected (no guarded route), as without authentication.*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*FRONTEND  
+Specifics:  
+– react app  
+– Routing per BrowserRouter/Routen/Route (react router dom)  
+– Creating e.g. arrays based on a state with useState() (react)  
+– useEffect() (react hook) with fetch() und promises  
+– meaningful segmentation into pages and components (as e.g. in atomic design)*
 
-### `npm run build`
+*BACKEND  
+Specifics:  
+– Node.js (asynchronous, event-based JavaScript runtime environment)  
+– express (Backend Framework for Node.js)  
+– Use of various middlewares:  
++ multer (node.js middleware) to handle uploading files  
++ cors (node.js package) to access and validate requests from remote hosts / different origins  
++ morgan (http request logger)  
+– Routing methods (hier: GET und POST)  
+– fs module functions such as readFile(), writeFile() etc.  
+– promises*
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*The design wasn't important in this project, as the development / implementation of the functionalities was the main focus.*
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*The project has not yet been completed and is still in progress.*
